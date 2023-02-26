@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Joan", serif;
+}
+
+body {
+  background-color: #0077b6;
+}
+.flex {
+  display: flex;
+  margin: 2% 0%;
+  padding: 0% 5%;
+}
+.cnt {
+  padding: 1% 3%;
+  margin: 1% 3%;
+}
+.tt {
+  font-weight: 600;
+  letter-spacing: 3px auto;
+}
+.txt {
+  line-height: 25px;
+  font-size: 15px;
+  letter-spacing: 3px auto;
+}
+
+.enlace1 {
+  margin: 40% 0% 0% 10%;
+  padding: 3% 10%;
+}
+.enlace2 {
+  margin: 9% 0% 0% -5%;
+  width: 110%;
+}
+.enlace3 {
+  margin: 100% 0% 0% -16%;
+  padding: 4% 10%;
+  width: 132%;
+}
+.enlace4 {
+  margin: 0% 0% 0% 0%;
+}
+.enlace5 {
+  margin: 25% 0% 0% 8%;
+}
+.enlace6 {
+  margin: 39% 0% 0% 0%;
+  width: 100%;
+}
+.enlace7 {
+  margin: 95% 0% 0% 0%;
+  width: 100%;
+}
+.enlace8 {
+  margin: 110% 0% 0% 0%;
+  width: 100%;
+}
+.enlace9 {
+  margin: 2% 0% 0% 11%;
+}
+.enlace10 {
+  margin: 47% 0% 0% -6%;
+  width: 112%;
+}
+.enlace11 {
+  margin: 6% 0% 0% -5%;
+  width: 110%;
+}
+.enlace12 {
+  margin: 90% 0% 0% -4%;
+  width: 110%;
+}
+
+footer {
+  background-color: #fff;
+  margin: 2% 0% 0% 0%;
+  padding: 1% 3%;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+}

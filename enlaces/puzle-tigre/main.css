@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+body {
+  padding: 10px 10px;
+  background: linear-gradient(#eff6e0, #aec3b0);
+  background-attachment: fixed;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+  padding: 10px 10px;
+  text-shadow: 0 2px 2px #598392;
+}
+table {
+  margin: 0px auto;
+}
+footer {
+  margin: 16% 0px 0px 0px;
+  background-color: #fff;
+  padding: 18px 0px 21px 62px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}

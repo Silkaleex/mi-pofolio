@@ -1,0 +1,455 @@
+
+/* Estilos Predefinidos*/
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.c1{
+    color:#02c6ee;
+}
+
+h1,h2,h3,h4,h5,h6,span,p,strong,a,label{
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul{
+    margin: 0; 
+}
+
+.iluminacion{
+    position: relative;
+    width: 600px;
+    height: 200px;
+}
+
+.iluminacion span{
+    position: absolute;
+    font-size: 150px;
+    color:transparent;
+    -webkit-text-stroke: 3px white;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.iluminacion :last-child{
+    filter: blur(6px);
+}
+
+
+.btn{
+    background-color: white;
+    border: 0;
+    padding: 10px 48px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #3ca2d8;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}
+
+.mb-70{
+    margin-bottom: 70px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.col-1{
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.col-2{
+    flex: 0 0 16.666667%;
+    max-width: 0 0 16.666667%;
+}
+
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-4{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.col-5{
+    flex: 0 0 41.666667%;
+    max-width: 0 0 41.666667%;
+}
+
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-7{
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col-8{
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-10{
+    flex: 0 0 83.333333%;
+    max-width: 0 0 83.333333%;
+}
+
+.col-11{
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.offset-8{
+    margin-left: 66.666667%;
+}
+
+.offset-9{
+    margin-left: 75%;
+}
+
+.m0{
+    margin: 0 !important;
+}
+
+.pd0{
+    padding: 0 !impotant;
+}
+
+/*Estilos del Menu o navegacion-top*/
+
+#navegacion-top{
+    background-color: #030303;
+    position: fixed;
+    top:40px;
+    width: 100%;
+    z-index: 1;
+}
+
+#navegacion-top .wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+#logo img{
+    display: block;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    display: flex;    
+}
+
+nav ul li a{
+    padding: 0 20px;
+    color:#02c6ee;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+li{
+      list-style: none;
+}
+
+nav ul li a:hover{
+    padding: 0 20px;
+    background-color:#02c6ee;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  
+    
+}
+
+/*Estilos header*/
+
+header{
+    height: 600px;
+    background: url(assets/img/bg-header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.info-header{
+    width: 700px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-header p{
+    width: 700px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 70px;
+    
+}
+/*Seccion who*/
+
+#who{
+    background-color: black;
+    padding: 90px 0;
+}
+
+#who p{
+     line-height: 28px;
+}
+
+/*Seccion we*/
+
+#we {
+    padding: 90px;
+    background-color: #141414;
+    color: white;
+}
+
+/*Seccion Priorities*/
+
+#priorities{
+    background: url(assets/img/bg-priorities.jpg);
+    background-size:cover;
+    padding-top: 90px;
+    padding-bottom: 700px;    
+}
+
+.caja-priori{
+    background-color: rgb(39, 39, 39, 0.62);
+    color: white;
+    padding: 15px 40px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Seccion what*/
+
+#what{
+    background-color: #000;
+    padding: 90px 0;
+}
+
+.caja-what{
+    color:white;
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Seccion mensajes1*/
+
+#mensaje1{
+    background-color: #141414;
+    padding: 90px 0;
+}
+
+#mensaje1 p´{
+    font-size: 20px;
+}
+
+/*Seccion mensajes2 div*/
+
+.mensaje2{
+    background-color: #000;
+    padding: 90px 0;
+}
+
+.mensaje2 p´{
+    font-size: 20px;
+}
+
+/*Seccion nature*/
+
+#nature{
+    background-color: #000;
+}
+
+#nature img{
+    width: 100%;
+    display: block;
+}
+
+
+.info-nature{
+    padding-left: 160px;
+    padding-right: 40px;
+    padding-top: 90px;
+}
+
+
+.info-nature p{
+    text-align: justify;
+    line-height: 24px;
+}
+
+.info-nature h2{
+    font-size: 40px;
+}
+
+/*Seccion tickets*/
+
+#tickets{
+    background: url(assets/img/bg-buy.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+.info-tickets{
+    color:white;
+    padding-top: 70px;
+}
+
+.info-tickets h2{
+    font-size: 50px;
+}
+
+
+/*Seccion fechas*/
+
+#fechas{
+    background-color: #141414;
+    color:white;
+    padding: 90px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*Seccion footer*/
+
+footer{
+    background-color: #141414;
+    color: white;
+    padding: 50px 0;
+}
+
+.redes ul li a{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color:#141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 0 2px;
+}
+
+a{
+    font-size: 22px;
+}
+
+hr{
+    color: darkturquoise;
+    background-color: darkturquoise;
+    margin-top: 250px;
+    padding: 20px;
+    
+}
